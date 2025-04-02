@@ -1,0 +1,176 @@
+@media screen and (max-width:1469px){
+    .offer{
+   width: 75%;
+    }
+}
+@media screen and (max-width:1379px){
+    .offer{
+   width: 85%;
+    }
+}
+@media screen and (max-width:1220px){
+    .offer{
+        width: 88%;
+    }
+    header{
+        width: 90%;
+    }
+    .destination{
+        width: 55%;
+    }
+}
+@media screen and (max-width:1110px){
+    .offer{
+        width: 90%;
+    }
+    header{
+        width: 95%;
+    }
+    header .trip .search{
+        width: 70%;
+    }
+    header .trip .travel .cards{
+        overflow-y:scroll;
+        
+    }
+    header .trip .travel .cards .card{
+        max-width: 220px;
+        margin-right: 10px;
+    }
+    .destination{
+        width: 60%;
+    }
+}
+@media screen and (max-width:890px){
+    header .trip .search{
+        width: 80%;
+    }
+    header .trip .search .card{
+        margin-right: 8px;
+    }
+    .destination{
+        width: 75%;
+    }
+}
+@media screen and (max-width:810px){
+    header{
+        width: 98%;
+    }
+   header .trip .search{
+    width: 85%;
+   }
+}
+@media screen and (max-width:750px){
+    header{
+        width: 100%;
+    }
+    header nav ul{
+        position: absolute;
+        width: 100px;
+        height: auto;
+        flex-direction: column;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;
+        justify-content: center;
+        top:-250px;
+        right: 30%;
+        z-index: 9;
+        padding: 10px 20px;
+        transition: .5s linear;
+    }
+    header nav .ul_active{
+        top: 0;
+    }
+    header nav ul li{
+        padding: 8px 0px;
+        text-align: center;
+    }
+    header nav .bi-three-dots-vertical{
+        display: unset;
+    }
+    header .trip .search{
+        width: 90%;
+    }
+    .offer{
+        width: 75%;
+    }
+}
+@media screen and (max-width:680px){
+    header .trip .search .card{
+        width: 140px;
+    }
+    header .trip .search input[type="button"]{
+        position: absolute;
+        right: 10px;
+        bottom:-43px;
+        font-size: 13px;
+    }
+    .offer{
+width: 85%;
+margin-top: 0px;
+    }
+    .destination{
+        width: 85%;
+        flex-direction: column-reverse;
+    }
+    .destination .des .img{
+        position: relative;
+        width: 55%;
+        height: auto;
+    }
+    .destination .des{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:540px){
+    header .content .cont{
+        width: 85%;
+    }
+    header .content .cont h1{
+        width: 300px;
+        font-size: 22px;
+    }
+    header .content .cont p{
+        width: 300px;
+        font-size: 12px;
+    }
+    header .trip .search{
+        width: 89%;
+    }
+    header .trip .search .card{
+        width: 110px;
+    }
+    header .trip .search .card input{
+        width: 100%;
+    }
+    .offer h1{
+        font-size: 22px;
+    }
+    .offer p{
+        font-size: 14px;
+    }
+    .offer .cards{
+        justify-content: center;
+    }
+    .destination{
+        width: 90%;
+    }
+    footer ul li h6{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:411px){
+    .offer{
+        margin-top: 80px;
+    }
+    footer p{
+        width: 330;
+        font-size: 12px;
+    }
+    footer ul li{
+        margin-right: 20px;
+      
+    }
+
+}
